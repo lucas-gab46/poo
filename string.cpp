@@ -1,24 +1,23 @@
 #include <iostream>
 #include <string>
 int main(){
+
+   // Mostrando Uma String
+  std::cout <<("Digite Uma string");
+  std::string str("Isso é uma String");  
+  // Função getline
+  getline(std::cin, str);
+  // Lendo a String
   
-// cin lẽ apenas palavras
-std::string str (6, 'A');
-  str[6] = 'A';
-  std::cout << ("String 1 Lida\n" ) << str << 
-    std::endl;
-
-std::string str2 (1 , 'B');
-  str[1] = 'B';
-    std::cout << ("String 2 Lida\n" ) << str2 << 
-      std::endl;
-
-
-std::string str3 (3, 'C');
-std::cout << ("String 3 lida\n ") << str3 << 
-  std::endl;
-
+  std::cout << "string lida!\n" << str << std::endl;
+  
+  std::cout << str.length() << std::endl;
+  
+  
+  std::cout << ("Tamanho da string: ") << str.size() << std::endl;
+  
+  std::cout << ("Largura da String") << str.length() << std::endl;
 
   return 0;
+
 }
- 
