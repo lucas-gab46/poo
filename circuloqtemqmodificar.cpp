@@ -2,11 +2,13 @@
 
 #include <iostream>
 #include <stdio.h>
+
 // Criação da classe
 class Circle {
 private:
 float radius;
   int x,y;
+  int rr;
  // Construtor
   public:
   Circle();
@@ -37,12 +39,12 @@ x = xx;
 y = yy;
 };
 
-float Circle area() {
-  return 3.14 * radius * radius;
-}
-float Circle diametro{
-  return radius*2;
-}
+float Circle area() { return 3.14* radius * radius}
+  
+};
+float Circle diametro{return radius*2}
+};
+
 void Circle set_radius(float rr){
   if (rr > 0) radius = rr;
   else radius = 0;
