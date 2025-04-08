@@ -20,10 +20,8 @@ int main() {
 
   std::cout << "Seu Peso é : " << peso << std::endl;
 
-  std::cout << "Digite a altura: "
-
-            << std::endl;
-
+  std::cout << "Digite a altura: " << std::endl;
+  
   std::cin >> altura;
 
   std::cout << "Sua Altura é : " << altura << std::endl;
