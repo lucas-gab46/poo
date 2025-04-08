@@ -18,7 +18,7 @@ void Imprime();
   
 
 };
-~Tempo() { }; // Desci
+~Tempo() { }; // Destrutor
 
 
 
