@@ -62,7 +62,7 @@ void Date::set_year(int value) {
 int main (){
 
   date::Date(){
-std::cout << "Esse é o meu aniversario:"{12,12,1974} << Aniversario.get_day() << std::endl
+std::cout << "Esse é o meu aniversario:"{10,10,1970} << Aniversario.get_day() << std::endl
 Aniversario.set_day(10);
 
 std::cout << "Esse é o mes do meu aniversario" <<  Aniversario.get_month() << std::endl
