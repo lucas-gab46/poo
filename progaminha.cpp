@@ -1,8 +1,22 @@
 #include <cstdlib>
 #include <iostream>
+class Informacoes{
+public:
+int idade;
+double peso;
+double altura;
+Informacoes(int idade , double peso, double altura) {
+idade = i;
+peso = p;
+altura = a;
+}
+};
 
 int main() {
   int idade;
+  double peso;
+  double altura;
+  
 
   std::cout << "Digite a sua idade: ";
 
@@ -10,9 +24,6 @@ int main() {
 
   std::cout << "Sua idade é : " << idade << std::endl;
 
-  double peso;
-
-  double altura;
 
   std::cout << "Digite o peso: " << std::endl;
 
@@ -20,9 +31,7 @@ int main() {
 
   std::cout << "Seu Peso é : " << peso << std::endl;
 
-  std::cout << "Digite a altura: "
-
-            << std::endl;
+  std::cout << "Digite a altura: " << std::endl;
 
   std::cin >> altura;
 
