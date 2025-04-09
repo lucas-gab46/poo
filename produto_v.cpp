@@ -11,7 +11,7 @@ private:
   
   public:
   // Construtor
-  Produto(int codigo, std::string nome, float preco) {
+  Produto(int codigo(c), std::string nome(n), float preco(p) {
     this->codigo = codigo;
     this->nome = nome;
    this->preco = preco;
