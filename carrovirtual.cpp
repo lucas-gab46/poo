@@ -9,7 +9,7 @@ protected:
 
 public:
     
-    Carro(int vel, int aceleracao, int freio, Carro) {
+    Carro(int vel, int aceleracao, int freio, Carro&Carro1) {
         this->vel = vel;
         this->aceleracao = aceleracao;
         this->freio = freio;
