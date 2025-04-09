@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdio.h>
 
-
+ // Classe Produto
 class Produto{
 private:
   int codigo;
@@ -9,7 +9,7 @@ private:
   float preco;
   
   public:
-  
+  // Construtor
   Produto(int codigo, std::string nome, float preco) {
     this->codigo = codigo;
     this->nome = nome;
@@ -22,7 +22,7 @@ private:
   float getPreco() {return preco;}
 };
 
-
+ // Progama Principal
 int main(){
   Produto produto1(1, "Arroz", 10.00);
    Produto produto2(2, "Feijao", 15.00);
@@ -49,7 +49,7 @@ int main(){
   std::cout << "\nEsses foram os produtos disponiveis." << std::endl;
 
 
-
+// Fim do Progama
 std::cin.get();
 return 0;
 
