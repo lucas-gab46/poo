@@ -1,7 +1,7 @@
 // Bibliotecas
 #include <iostream>
 #include <stdio.h>
-
+#endif
  // Classe Produto
 class Produto{
 private:
@@ -29,6 +29,7 @@ int main(){
    Produto produto2(2, "Feijao", 15.00);
    Produto produto3(3, "Macarrao", 20.00);
    Produto produto4(4, "Banana", 25.00);
+ 
 
   std::cout << "\nCodigo: " << produto1.getCodigo() << std::endl;
   std::cout << "\nNome: " << produto1.getNome() << std::endl;
